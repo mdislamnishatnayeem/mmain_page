@@ -1,0 +1,397 @@
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 1366px) {
+
+  body{
+    background:white;
+    padding: 0px;
+    margin:0px;
+    
+  }
+  .Topbar{
+    color:white;
+    font-size:45px;
+    padding:0px;
+    margin:0px;
+   font-family:Verdana;
+   display: inline-block;
+   background:darkblue;
+   width: 100%;
+}
+.Topbar marquee{
+  width:100% ;
+  font-size: 45px;
+  background: midnightblue;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Audiowide', cursive;
+   
+
+}
+.SecondTop img ,#img1{
+  float: left;
+  height:150px;
+}
+.SecondTop img ,#img2{
+  float: right;
+  hight:150px;
+}
+
+
+.SecondTop{
+  background:royalblue;             /*#849eec;*/
+  color:black;
+  height:150px;
+  width: 100%;
+  float: left;
+  padding:0px;
+  border-radius:4%;
+ /* border-left:10px black;*/
+  margin:0px;
+  
+}
+
+#quest{
+  background:white;
+  height:45px;
+  width:100%;
+}
+#quest button ,.Questionbar,.questxt{
+  
+font-size:35px;
+}
+.Subjectlistbar{
+  background:green;
+  color:black;
+  height:608px;
+  width: 100%;
+  float:right;
+  margin: 0px;
+  padding:0px;
+  
+}
+.Questionbar{
+  background:#595959;
+  color:white;
+  height:50px;
+  width: 25%;
+  float: left;
+  padding:0px;
+  margin-top: 8px;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.Middlebar{
+  background:#333333;
+  color:white;
+  height:4800px;
+  width: 100%;
+  float:left;
+  margin-top:8px;
+  padding:10px;
+  border-left:38px black;
+  background-image: url('pic/library.jpg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:100% 2125px;
+ font-size: 20px;
+
+}
+
+
+#button1{
+  background-color: #f44336;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:12px;
+  float:left;
+  margin:23px;
+      
+  
+}
+#button2{
+  background-color: #f44336;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:12px;
+ float: right;
+ margin:23px;
+ 
+}
+
+.Lastbar{
+  
+    background:#54678F;
+    height: 170px;
+    width: 100%;
+    color:white;
+    padding: 0px;
+    margin: 0px;
+    float:none;
+    display:inline-block;
+    font-size:30px;
+   
+
+}
+.Bottombar{
+ background:#212624;
+    height: 500px;
+    color:white;
+    padding:0px;
+    float: none;
+    margin;0px;
+    width: 100%;
+    display: inline-block;
+    font-size: 30px;
+    line-height:1;
+
+}
+.Bottombar p,.aboutus{
+  font-size: 30px;
+  padding: 0px;
+}
+.Bottombar p,#develop{
+  font-size:30px;
+}
+.Bottombar img,#mypicc{
+  height:240px;
+  width: 250px;
+  padding:0px;
+}
+  .Lastbar a{
+
+  background-color: #f44336;
+
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:3px;
+ float: right;
+ margin-right: 30px;
+
+}  
+.Middlebar img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 50%;
+   
+}
+    .Middlebar p,.sos{
+        padding-left: 50px;
+    }
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+  body{
+    background:white;
+    padding: 0px;
+    margin:0px;
+    
+  }
+  .Topbar{
+    color:white;
+    font-size:30px;
+    padding:0px;
+    margin:0px;
+   font-family:Verdana;
+   display: inline-block;
+   background:darkblue;
+   
+}
+
+.Topbar marquee{
+  width:100% ;
+  font-size: 25px;
+  background: midnightblue;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Audiowide', cursive;
+}
+.SecondTop{
+  background:royalblue;             /*#849eec;*/
+  color:black;
+  height:100px;
+  width: 100%;
+  float: left;
+  padding:0px;
+  border-radius:1%;
+ /* border-left:10px black;*/
+  margin:0px;
+  
+}
+.SecondTop img ,#img1{
+  float: left;
+  height:100px;
+}
+.SecondTop img ,#img2{
+  float: right;
+  hight:100px;
+}
+
+#quest{
+  background:white;
+  height:185px;
+  width:100%;
+}
+#quest button ,.Questionbar,.questxt{
+  
+font-size:16px;
+}
+.Subjectlistbar{
+  background:green;
+  color:black;
+  height:160px;
+  width: 100%;
+  float:right;
+  margin: 0px;
+  padding:0px;
+  
+}
+.Questionbar{
+  background:#595959;
+  color:white;
+  height:40px;
+  width: 25%;
+  float: left;
+  padding:0px;
+  margin-top: 2px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.Middlebar{
+  background:#333333;
+  color:white;
+  height:3800px;
+  width: 100%;
+  float:left;
+  margin-top:2px;
+  padding:5px;
+  border-left:10px black;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size:100% 560px;
+  font-size: 15px;
+ 
+
+}
+
+#button1{
+  background-color: #f44336;
+  color: white;
+  padding: 3px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:3px;
+  float:left;
+  margin:6px;
+      
+  
+}
+#button2{
+  background-color: #f44336;
+  color: white;
+  padding: 3px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:3px;
+ float: right;
+ margin:6px;
+
+    }
+.Lastbar{
+  
+    background:#54678F;
+    height: 150px;
+    width: 100%;
+    color:white;
+    padding: 0px;
+    margin: 0px;
+    float:none;
+    display:inline-block;
+    font-size: 20px;
+   
+
+}
+.Bottombar{
+ background:#212624;
+    height: 400px;
+    color:white;
+    padding:0px;
+    float: none;
+    margin;0px;
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1;
+
+}
+
+.Bottombar p,.aboutus{
+  font-size: 18px;
+}
+.Bottombar p,#develop{
+  font-size:18px;
+}
+.Bottombar img,#mypicc{
+  hEight:200px;
+  width: 210px;
+  padding:0px;
+}
+
+    .Lastbar a{
+
+  background-color: #f44336;
+
+  color: white;
+  padding: 3px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:3px;
+ float:right;
+ margin-right: 30px;
+
+}
+.Middlebar img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 100%;
+   
+}
+    .Middlebar p,.sos{
+        padding-left: 8px;
+    }
+    
+
+
+}
