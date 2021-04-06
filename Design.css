@@ -161,8 +161,34 @@ font-size:35px;
   width: 250px;
   padding:0px;
 }
+  .Middlebar #star{
+  color: red;
+ border-left:20px;
+  border-right:0px;
+  border-top:0px;
+  border-bottom:0px;
+  border-style:solid; 
+  border-color:white;
+  padding: 1em;
+ font-weight: bold;
+ background:black;
+  
+}
+.Middlebar #ones{
+  font-size: 50px;
+  padding:20px;
+    text-align: center;
+ 
+  border:3px;
+    border-style:solid; 
+    border-color:white; 
+    padding: 1em; 
+    text-align: center
+}
 
 }
+
+
 
 
 
