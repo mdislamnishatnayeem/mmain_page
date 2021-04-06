@@ -85,7 +85,7 @@ font-size:35px;
 .Middlebar{
   background:black;
   color:white;
-  height:21125px;
+  height:13425px;
   width: 100%;
   float:left;
   margin-top:8px;
@@ -95,21 +95,17 @@ font-size:35px;
   background-repeat: no-repeat;
   background-attachment:scroll;
   background-size:100% 2125px;
- font-size: 30px;
+  font-size: 30px;
 
 }
+
 .Middlebar img{
-
  width: 40%;
-
  margin-left: 10%;
-
  margin-right:10%;
-
  padding: 0px;
  align-content: center;
  float:right;
-  
 }
 
 #button1{
@@ -122,9 +118,8 @@ font-size:35px;
   border-radius:12px;
   float:left;
   margin:23px;
-      
-  
 }
+
 #button2{
   background-color: #f44336;
   color: white;
