@@ -1,7 +1,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 1366px) {
   body{
-    background:white;
+    background:#00004d;
     padding: 0px;
     margin:0px;
     
@@ -97,7 +97,7 @@ font-size:35px;
 }
 
 .Middlebar{
-  background:#f9ecf2;
+  background:#00004d
   color:black;
   height:2125px;
   width: 100%;
@@ -112,12 +112,38 @@ font-size:35px;
  font-size: 30px;
 
 }
-.Middlebar a{
-    text-decoration: none;
-    color:#b30000;
-    font-size:30px;
-    font-weight:bold;
-    }
+.nestedbar{
+  background:black;
+  width:100%;
+  height:300px;
+  margin: 0px;
+  padding: 0px;
+  border:1px;
+  border-style: solid;
+ border-color: white;
+ 
+}
+.nestedbar img{
+  width: 40%;
+  height:300px;
+  float:right;
+  padding: 0px;
+  margin: 0px;
+  align-content: right;
+}
+.nestedbar a{
+  width:60%;
+  height:300px;
+  padding:130px;
+  margin:0px;
+  float: left;
+  text-align: left;
+  text-decoration:none;
+  color: skyblue;
+  background: black;
+  font-size: 40px;
+  
+}
 
 
 .Lastbar{
@@ -170,7 +196,7 @@ font-size:35px;
 
 @media only screen and (max-width:600px) {
   body{
-    background:white;
+    background:#00004d;
     padding: 0px;
     margin:0px;
     
@@ -264,30 +290,55 @@ font-size:15px;
 }
 
 .Middlebar{
-  background:#f9ecf2;
+  background:#00004d;
   color:black;
   height:560px;
   width: 100%;
-  float:left;
   margin-top:2px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
   padding:8px;
-  border-left:10px black;
   background-image: url('pic/library.jpg');
   background-repeat: no-repeat;
   background-attachment:scroll;
   background-size:100% 560px;
-    font-size: 20px;
+  font-size: 20px;
  
 
 }
-    .Middlebar a{
-    text-decoration: none;
-     color:#b30000;
-    font-size:20px;
-    font-weight:bold;
-    }
-    
-
+.nestedbar{
+  background:black;
+  width:100%;
+  height:120px;
+  margin: 0px;
+  padding: 0px;
+  border:1px;
+  border-style: solid;
+ border-color: white;
+ 
+}
+.nestedbar img{
+  width: 40%;
+  height:120px;
+  float:right;
+  padding: 0px;
+  margin: 0px;
+  align-content: right;
+}
+.nestedbar a{
+  width:60%;
+  height:120px;
+  padding:45px;
+  margin:0px;
+  float: left;
+  text-align: left;
+  text-decoration:none;
+  color:skyblue;
+  background: black;
+  font-size: 25px;
+  
+}
 .Lastbar{
   
     background:#54678F;
