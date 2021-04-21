@@ -310,8 +310,8 @@ font-size:15px;
 }
 
 .Middlebar{
-  background:white;       /* #333333; */
-  color:black;
+  background:#333333;
+  color: white;
   height:3800px;
   width: 100%;
   float:left;
