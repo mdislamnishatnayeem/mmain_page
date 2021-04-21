@@ -338,6 +338,13 @@ font-size:15px;
   height: 0px;
   width:0px;
 }
+.Rightbar a{
+  font-size:0px;
+  width:0px;
+margin:0px;
+padding:0px;
+}
+
 #button1{
   background-color: #f44336;
   color: white;
